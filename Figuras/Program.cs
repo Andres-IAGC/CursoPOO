@@ -8,10 +8,6 @@ namespace Figuras
 {
     class Figura
     {
-<<<<<<< HEAD
-        
-    }
-=======
         public int Rx, Ry;
         public Figura(int Rx, int Ry)
        {
@@ -22,14 +18,19 @@ namespace Figuras
     }
    
 
->>>>>>> ca0c0fe1a4223603bcad0c7c7429ad66bd9e109e
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("!Hola Mundo!");
             Console.Writeline("Soy p#to");
-            Console.WriteLine("Hola mundo 2")
+            Console.WriteLine("Hola mundo 2");
+
+            for(int i; i< 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
             Console.ReadKey();
         }
     }

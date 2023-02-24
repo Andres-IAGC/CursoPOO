@@ -22,9 +22,6 @@ namespace Figuras
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("!Hola Mundo!");
-            Console.Writeline("Soy p#to");
-            Console.WriteLine("Hola mundo 2");
 
             for(int i; i< 10; i++)
             {
